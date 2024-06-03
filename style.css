@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.parent{
+    width: 60%;
+    height: 60vh;
+    margin: 120px auto;
+    border-radius: 10px;
+    border: 2px solid rgb(136, 0, 247);
+    padding: 10px;
+    
+}
+
+
+.watchHeading{
+     color: white;
+     text-align: center;
+     font-size: 45px;
+}
+
+.watch{
+    display: flex;
+    padding: 30px 120px;
+    font-size: 80px;
+    font-weight: 400;
+    color: white;
+    gap: 20px;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 20px;
+    background: rgb(190,5,251);
+background: linear-gradient(159deg, rgba(190,5,251,1) 0%, rgba(128,0,255,1) 60%, rgba(78,0,247,1) 100%);  
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    height: 40%;
+    padding: 50px 0;
+}
+
+.buttons button{
+    width: 100px;
+    text-align: center;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+.buttons button:active{
+    transform: translateY(5px);
+    transition: .4s;
+}
+i{
+    margin: 0 10px;
+}
